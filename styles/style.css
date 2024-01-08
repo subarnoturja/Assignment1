@@ -6,7 +6,7 @@
     height: 80vh;
     max-width: 1320px;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #container .text{
@@ -30,4 +30,73 @@
     font-weight: 900px;
     line-height: 75px;
     padding-bottom: 120px;
+    margin-top: auto;
 }
+
+/* Header Part Ends Here */
+
+.second{
+    text-align: center;
+    margin-top: 98px;
+    font-family: 'Inter';
+    padding-bottom: 100px;
+}
+
+.second .discount h2{
+    color: rgb(228, 19, 19);
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+.second .discount h2 span{
+    transition: width 2s, height 4s;
+}
+span:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.second .advertise p{
+    color: rgb(228, 19, 19);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.second .advertise h3{
+    color: #070211;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: auto;
+}
+
+/* Second Part Ends Here */
+
+.third{
+    background: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0.00)), url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    max-width: 1320px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.text-img{
+    display: flex;
+    align-items: center;
+}
+
+.text-img .welcome h4{
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-left: 110px;
+    width: 100%;
+}
+
