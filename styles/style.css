@@ -113,6 +113,7 @@
     width: 1320px;
     height: 482px;
     margin: 100px auto;
+    border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
 }
 
@@ -149,19 +150,22 @@
     width: 1320px;
     height: 482px;
     margin: 100px auto;
+    padding-bottom: 700px;
 }
 
 .fifth .fifth-text .gift{
     color: rgb(228, 19, 19);
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
 }
 
 .fifth .fifth-text h3{
     color: #070211;
+    font-family: 'Merriweather';
     font-size: 40px;
     font-weight: 700;
-    line-height: 15px;
+    line-height: 30px;
     margin-top: auto;
 }
 
@@ -180,7 +184,75 @@
 .fifth .fifth-img{
     display: grid;
     gap: 15px;
-    grid-template-columns: auto auto auto;  
+    grid-template-columns: repeat(3, 1fr);  
+    margin-bottom: 200px;
 }
 
 /* Fifth Part End Here */
+
+.sixth{
+    width: 1320px;
+    height: 616px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sixth .mail-img{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sixth .newsletter h3{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sixth .newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+    word-spacing: 1.5px;
+    width: 735px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 735px;
+    margin: auto;
+}
+
+.sixth .input-button{
+    display: flex;
+    margin-left: 450px;
+    padding-top: 40px;
+    padding-right: 200px;
+}
+
+.sixth .input-button .sub-button .sub{
+    width: 250px;
+    font-family: 'Inter';
+    font-size: 15px;
+    border: 0;
+    padding: 15px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.sixth .input-button .color-sub .subscribe{
+    width: 130px;
+    background: rgb(228, 19, 19);
+    font-family: 'Inter';
+    font-size: 15px;
+    color: white;
+    border: 0;
+    padding: 15px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
