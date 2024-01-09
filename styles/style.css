@@ -119,6 +119,10 @@
     line-height: normal;
 }
 
+.third .text-img .welcome .join:hover {
+    background-color: rgb(109, 161, 31);
+}
+
 /* Third Part Ends Here */
 
 .fourth{
@@ -154,6 +158,10 @@
     font-family: 'Inter';
     font-size: 15px;
     font-weight: 600;
+}
+
+.fourth .invitation .join:hover {
+    background-color: rgb(109, 161, 31);
 }
 
 /* Fourth Part End Here */
@@ -199,6 +207,15 @@
     grid-template-columns: repeat(3, 1fr);  
     margin-bottom: 200px;
 }
+
+.fifth .fifth-img .fifth-img-grid{
+    transition: transform .2s;  
+    box-shadow: #1b0449;
+}
+  
+.fifth .fifth-img .fifth-img-grid:hover{
+    transform: scale(1.1);
+  }
 
 /* Fifth Part End Here */
 
@@ -306,8 +323,18 @@
 .seventh .social-media{
     display: flex;
     justify-content: center;
-    margin-top: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     gap: 16px;
+    border-image-width: overline underline;
+}
+
+.line{
+    border: solid rgba(128, 128, 128, 0.2);
+    width: 1320px;
+    border-left: 0;
+    border-right: 0;
+    margin-left: 100px;
 }
 
 .seventh .left-right{
@@ -321,5 +348,6 @@
     text-align: center;
     margin: 100px auto;
     padding-right: 90px;
-    margin-bottom: 100px;
+    padding-bottom: 200px;
 }
+
