@@ -12,7 +12,7 @@
 #container .text{
     position: absolute;
     color: white;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -76,20 +76,33 @@
     margin: 20px auto;
 }
 
-.text-img{
+.third .text-img{
     display: flex;
     align-items: center;
+    padding-top: 30px;
+    padding-right: 80px;
 }
 
-.text-img .welcome h4{
+.third .text-img .welcome h4{
     color: #FFF;
     font-family: 'Merriweather';
     font-size: 50px;
-    font-weight: 900;
-    line-height: 88px; /* 137.5% */
-    letter-spacing: 7.04px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 8px;
     margin-left: 110px;
-    width: 100%;
+    width: 642px;
+}
+
+.third .text-img .welcome p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: auto;
+    margin-left: 110px;
+    width: 650px;
 }
 
 .third .text-img .welcome .join{
@@ -97,12 +110,11 @@
     border: 0;
     border-radius: 7px;
     background: rgb(228, 19, 19);
-    margin-left: 150px;
+    margin-left: 110px;
     color: #FFF;
     text-align: center;
     font-family: 'Inter';
     font-size: 15px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
@@ -255,4 +267,59 @@
     border-top-right-radius: 25px;
 }
 
+/* Sixth Part End Here */
 
+.seventh{
+    background-color: #070211;
+    padding: 0;
+    margin: 0;
+    width: 1600px;
+    height: 609px;
+    text-align: center;
+}
+
+.seventh .address-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 100px auto;
+    padding-right: 90px;
+    padding-top: 60px;
+}
+
+.seventh .address-contact .address{
+    line-height: 35px;
+    width: 250px;
+}
+
+.seventh .address-contact .contact{
+    align-items: center;
+    gap: 2px;
+}
+
+.seventh .social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    gap: 16px;
+}
+
+.seventh .left-right{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 100px auto;
+    padding-right: 90px;
+    margin-bottom: 100px;
+}
